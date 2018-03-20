@@ -26,10 +26,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ET-u5-sL8">
-                                <rect key="frame" x="66" y="296" width="77" height="51"/>
+                                <rect key="frame" x="66" y="296" width="77" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <state key="normal" title="확인"/>
+                                <state key="normal" title="Tap"/>
                                 <connections>
                                     <action selector="btn01:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3SD-Oh-3WJ"/>
                                 </connections>
@@ -38,9 +38,17 @@
                                 <rect key="frame" x="239" y="284" width="95" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <state key="normal" title="리셋"/>
+                                <state key="normal" title="Reset"/>
                                 <connections>
                                     <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="htd-D4-awh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgc-qq-InG">
+                                <rect key="frame" x="148" y="383" width="91" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="color:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EP0-7h-VgS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -53,7 +61,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-327.19999999999999" y="-66.11694152923539"/>
+            <point key="canvasLocation" x="-644" y="-122"/>
         </scene>
     </scenes>
 </document>
